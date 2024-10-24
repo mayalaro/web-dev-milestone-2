@@ -1,0 +1,150 @@
+/*# sourceMappingURL=style.css.map */
+body {
+    font-family: "Lato", system-ui;
+    margin: 0;
+    padding: 0;
+
+}
+.navbar {
+    background-color: grey;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    
+}
+.navbar ul li {
+    margin: 0 20px;
+
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.navbar ul li a:hover {
+    color: lightcyan;
+}
+
+.home {
+    margin: 1rem 2rem;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    gap: 7rem;
+}
+
+.home img {
+    height: 450px;
+    width: 450px;
+    display: flex; 
+    
+}
+
+.home h1 {
+    font-size: 4rem;
+}
+.home h2 {
+    font-size: 2rem;
+}
+
+
+.about {
+    height: 100vh;
+    margin: 1rem 2rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 6rem;
+
+
+}
+.about h2 {
+    font-size: 2rem;
+}
+.about p {
+    margin: 0.5rem;
+    font-size: 1.25rem;
+}
+
+.description {
+    width: 50%;
+
+
+}
+.about img {
+    width: 50%;
+
+    
+}
+
+.about-img  {
+    scale: .5;
+
+}
+
+.contact {
+    padding: 50px 20px;
+    margin:  50px auto;
+    max-width: 600px;
+    background-color: grey;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, .01) 
+}
+.contact h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 30px;
+    color:  white;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact form label {
+    margin: 10px 0px 5px 0px;
+    font-weight: bold;
+    font-size: 1.1rem;
+    color: ghostwhite;
+}
+
+.contact form input:focus,
+.contact form textarea:focus {
+    border-color: black;
+    outline: none;
+
+}
+
+.contact form textarea {
+    resize: vertical;
+    min-height: 100px;
+
+}
+
+.contact button {
+    background-color: black;
+    color: white;
+    padding: 12px 20px;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3 ease;
+    margin-top: 1rem;
+}
+.contact button:hover {
+    background-color: blue;
+
+}

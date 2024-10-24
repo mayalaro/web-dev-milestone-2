@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+
+<head>
+
+    <link rel="stylesheet" href="./style.css">
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Mathias Ayala Portfolio</title>
+
+</head>
+
+
+<body>
+
+
+<!-- NavBar -->
+
+<nav class="navbar">
+
+    <ul>
+
+        <li><a href="#home">Home</a></li>
+
+        <li><a href="#about">About</a></li>
+
+        <li><a href="#contact">Contact</a></li>
+
+    </ul>
+
+</nav>
+
+
+
+<!-- NavBar -->
+<nav class="navbar">
+    <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
+
+<!-- Home Page -->
+<div class="home" id="home">
+    <img src="Images/IMG_9403.jpeg" alt="Mathias">
+    <div class="pp">
+        <h1>Hello!👋</h1>
+    <h2>My name is Mathias Ayala and I attend Kennesaw State University.</h2>
+    </div>
+
+</div>
+
+<!-- About Page -->
+<div class="about" id="about">
+    <img class="about-img" src="Images/ksu.webp" alt="ksu img">
+    <div class="description">
+        <h2>About Me</h2>
+        <p> My name is Mathias Ayala, and I’m currently a junior at Kennesaw State University, where I’m majoring in Information Technology. At 20 years old, I juggle my academic responsibilities with a part-time retail job, which has taught me valuable time management skills. I was born in Atlanta, Georgia, and I have a deep passion for coding that drives my interest in the IT field. When I’m not studying or working, I love to stay active by working out and playing soccer, which helps me maintain a balanced lifestyle.
+           </p>
+           <p>  Looking ahead, my goal is to attain my Bachelor of Science degree and serve my country by joining the Army. I’m determined to make the most of my time in college, expanding my skills and knowledge to prepare for a successful career in technology and military service. Whether I’m on the soccer field or in the classroom, I strive to embody perseverance and ambition in everything I do. I’m excited about what the future holds and eager to take on new challenges along the way.</p>
+    </div>
+
+
+    </div>
+
+<!-- Contact Page -->
+
+<div id="contact" class="contact">
+
+    <h2>Contact Me</h2>
+
+    <form id="contact-form" action="/submit-form" method="POST">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+    
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+    
+        <label for="message">Message:</label>
+        <textarea name="message" id="message" rows="5" required></textarea>
+    
+        <button type="submit">Send</button>
+    </form>
+    
+
+    <!-- Status message -->
+
+    <p id="form-status"></p>
+
+</div>
+
+
+<!-- Footer -->
+
+<div><p>&copy; Mathias's portfolio</p></div>
+
+
+<script src="./index.js"></script>
+
+</body>
+
+</html>
